@@ -56,4 +56,17 @@
 
 
 
-console.log(undefined>0);
+// console.log(undefined>0);
+
+
+// data types
+
+const score =100;
+const scoreValue =100.3;
+const isLoggedIn = false;
+const outsideTemp = null;
+let userEmail ;
+const id = symbol('123')
+
+const anothrId = symbol('123')
+console.log(id===anothrId);
