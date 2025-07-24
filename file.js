@@ -31,9 +31,28 @@
 // console.log(gameCounter);
 
 
-console.log("2">1);
-console.log("02">1);
+// console.log("2">1);
+// console.log("02">1);
+
+
+// console.log(null>0);
+// console.log(null>0);
+// console.log(null>=0);
 
 
 console.log(null>0);
-console.log(null>0);
+
+// 2
+console.log(null==0);
+// 3
+console.log(null=0);
+// 4
+console.log(undefined==0);
+// 5
+console.log(undefined>0);
+// 6
+console.log(undefined<0);
+
+
+
+
