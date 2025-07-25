@@ -89,16 +89,27 @@
  let arrey=["pakistan", "iran","indonesia", "japan"];
   const personHe={
     name:"tbh",
-    age:"23",
+    age:33,
     race:"black",
     nationality:"persian",
     istortured:true,
   }
   console.log(typeof arrey);
   console.log(typeof personHe);
-  console.log(typeof age);
-  console.log(typeof istortured);
+  console.log(typeof personHe.age);
+  console.log(typeof personHe.istortured);
+
+  let pakistan={
+    province:4,
+    states:50,
+    isLiberal:true,
+    pm:"mss",
+    defence:"forces",
+  }
+
   
-  
+  console.log(typeof pakistan.defence);
+  console.log(typeof pakistan.isLiberal);
+  console.log(typeof pakistan.states);
   
   
