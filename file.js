@@ -70,3 +70,18 @@ const id = symbol('123')
 
 const anothrId = symbol('123')
 console.log(id===anothrId);
+
+const myName= "sabir";
+
+
+let groceries=[apple,grapes, dates,peach,onion,]
+
+let  Ottp= {
+name :"sabir",
+age:23,
+gender:m,
+isWeak:true,
+}
+    
+console.log(typeof groceries);
+console.log(typeof Ottp);
