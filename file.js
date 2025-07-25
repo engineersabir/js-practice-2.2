@@ -89,7 +89,16 @@
  let arrey=["pakistan", "iran","indonesia", "japan"];
   const personHe={
     name:"tbh",
-    age:23,
+    age:"23",
     race:"black",
     nationality:"persian",
+    istortured:true,
   }
+  console.log(typeof arrey);
+  console.log(typeof personHe);
+  console.log(typeof age);
+  console.log(typeof istortured);
+  
+  
+  
+  
