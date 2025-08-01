@@ -158,6 +158,10 @@
   console.log(myDate.setUTCMilliseconds('9'));
   console.log(myDate.getFullYear());
   console.log(myDate.getMinutes());
+  let myCreatedDate= new Date ("08-1-2025");
+  console.log(myCreatedDate.toLocaleString());
+  console.log(myCreatedDate.toTimeString());
+  
   
   
   
