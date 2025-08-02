@@ -164,12 +164,32 @@
   
   // let myCreatedDate = new Date (2023,0,23,5,3)
   // let myCreatedDate = new Date ("2023-01-14")
-  let myCreatedDate = new Date ("01-14-2023")
-  console.log(myCreatedDate.toDateString());
-  let myTimeStamps=Date.now()
-  console.log(myTimeStamps);
-  console.log(myCreatedDate.getTime());
-  console.log(Date.now());
+  // let myCreatedDate = new Date ("01-14-2023")
+  // console.log(myCreatedDate.toDateString());
+  // let myTimeStamps=Date.now()
+  // console.log(myTimeStamps);
+  // console.log(myCreatedDate.getTime());
+  // console.log(Date.now()/1000);
+
+  // let newDate = new Date()
+  // console.log(newDate);
+  // console.log(newDate.getMonth()+1);
+  // console.log(newDate.getDay());
+  
+  // newDate.toLocaleString('default',{
+  //   weekday:"long",
+      
+  // })
+  
+const marvel_heroes =['thor','ironman','spiderman']
+const dc_heroes=['superman','flash','batman']
+marvel_heroes.push(dc_heroes);
+console.log(marvel_heroes);
+console.log(marvel_heroes.includes('superman'))
+marvel_heroes.push('hulk')
+console.log(marvel_heroes);
+
+
   
   
   
