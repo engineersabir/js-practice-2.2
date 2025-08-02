@@ -128,39 +128,44 @@
   // const min = 10
   // const max = 20
   // console.log(Math.floor(Math.random() * (max-min+1))+min)
-  let myDate = new Date()
+  // let myDate = new Date()
   // console.log(myDate);
-  // console.log(myDate.toString());
-  console.log(myDate.toDateString());
-  console.log(myDate.toISOString());
-  console.log(myDate.toJSON());
-  console.log(myDate.toLocaleDateString());
-  console.log(myDate.toLocaleString());
-  console.log(myDate.toLocaleTimeString());
-  console.log(myDate.toUTCString());
-  console.log(myDate.getTimezoneOffset());
-  console.log(myDate.getTimezoneOffset());
-  console.log(myDate.getMonth());
-  console.log(myDate.getHours());
-  console.log(myDate.setMonth('6'));
-  console.log(myDate.setHours('8'));
-  console.log(myDate.getUTCHours());
-  console.log(myDate.getUTCMonth());
-  console.log(myDate.setUTCHours(9));
-  console.log(myDate.setUTCMonth(3));
-  console.log(myDate.getSeconds());
-  console.log(myDate.setSeconds('4'));
-  console.log(myDate.getUTCSeconds());
-  console.log(myDate.setUTCSeconds(9));
-  console.log(myDate.getMilliseconds());
-  console.log(myDate.setMilliseconds('6'));
-  console.log(myDate.getUTCMilliseconds());
-  console.log(myDate.setUTCMilliseconds('9'));
-  console.log(myDate.getFullYear());
-  console.log(myDate.getMinutes());
-  let myCreatedDate= new Date ("08-1-2025");
-  console.log(myCreatedDate.toLocaleString());
-  console.log(myCreatedDate.toTimeString());
+  // // console.log(myDate.toString());
+  // console.log(myDate.toDateString());
+  // console.log(myDate.toISOString());
+  // console.log(myDate.toJSON());
+  // console.log(myDate.toLocaleDateString());
+  // console.log(myDate.toLocaleString());
+  // console.log(myDate.toLocaleTimeString());
+  // console.log(myDate.toUTCString());
+  // console.log(myDate.getTimezoneOffset());
+  // console.log(myDate.getTimezoneOffset());
+  // console.log(myDate.getMonth());
+  // console.log(myDate.getHours());
+  // console.log(myDate.setMonth('6'));
+  // console.log(myDate.setHours('8'));
+  // console.log(myDate.getUTCHours());
+  // console.log(myDate.getUTCMonth());
+  // console.log(myDate.setUTCHours(9));
+  // console.log(myDate.setUTCMonth(3));
+  // console.log(myDate.getSeconds());
+  // console.log(myDate.setSeconds('4'));
+  // console.log(myDate.getUTCSeconds());
+  // console.log(myDate.setUTCSeconds(9));
+  // console.log(myDate.getMilliseconds());
+  // console.log(myDate.setMilliseconds('6'));
+  // console.log(myDate.getUTCMilliseconds());
+  // console.log(myDate.setUTCMilliseconds('9'));
+  // console.log(myDate.getFullYear());
+  // console.log(myDate.getMinutes());
+  // let myCreatedDate= new Date ("08-1-2025");
+  // console.log(myCreatedDate.toLocaleString());
+  // console.log(myCreatedDate.toTimeString());
+  
+  // let myCreatedDate = new Date (2023,0,23,5,3)
+  // let myCreatedDate = new Date ("2023-01-14")
+  let myCreatedDate = new Date ("01-14-2023")
+  console.log(myCreatedDate.toDateString());
   
   
   
