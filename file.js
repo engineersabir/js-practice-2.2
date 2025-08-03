@@ -213,6 +213,13 @@ const jsUser={
 
 console.log(jsUser["age"]);
 console.log(jsUser.email);
+jsUser.greetingTwo=function(){
+  console.log(`hello JS user ,${this.name}`);
+  
+}
+// console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo());
+
 
 
 
