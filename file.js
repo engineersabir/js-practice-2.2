@@ -181,76 +181,84 @@
       
   // })
   
-const marvel_heroes =['thor','ironman','spiderman']
-const dc_heroes=['superman','flash','batman']
+// const marvel_heroes =['thor','ironman','spiderman']
+// const dc_heroes=['superman','flash','batman']
 // marvel_heroes.push(dc_heroes);
 // console.log(marvel_heroes);
 // console.log(marvel_heroes.includes('superman'))
 // marvel_heroes.push('hulk')
 // console.log(marvel_heroes);
 
-const all_new_heroes=[...dc_heroes,...marvel_heroes]
+// const all_new_heroes=[...dc_heroes,...marvel_heroes]
 // console.log(all_new_heroes);
-const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
-const real_another_array=another_array.flat(Infinity)
+// const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
+// const real_another_array=another_array.flat(Infinity)
 // console.log(real_another_array);
 // console.log(Array.isArray('hitesh'));
 // console.log(Array.from('hitesh'));
-let score1=100
-let score2=200
-let score3=300
+// let score1=100
+// let score2=200
+// let score3=300
 // console.log(Array.of(score1,score2,score3));
 
-const jsUser={
-  name:"hitesh",
-  age:18,
-  location:"jaipur"
-  ,
-  email:"abc@gmail.com",
-  isLoggedIn:false,
-  lastloggedInDays:["monday","saturday"]
-}
+// const jsUser={
+  // name:"hitesh",
+  // age:18,
+  // location:"jaipur"
+  // ,
+  // email:"abc@gmail.com",
+  // isLoggedIn:false,
+  // lastloggedInDays:["monday","saturday"]
+// }
 
 // console.log(jsUser["age"]);
 // console.log(jsUser.email);
-jsUser.greetingTwo=function(){
+// jsUser.greetingTwo=function(){
   // console.log(`hello JS user ,${this.name}`);
   
-}
+// }
 // console.log(jsUser.greeting());
 // console.log(jsUser.greetingTwo());
 // console.log(Object.keys(jsUser));
 // console.log(Object.values(jsUser));
 // console.log(jsUser.hasOwnProperty('isLoggedIn'));
-function sayMyName(){
-  console.log("h");
-  console.log("i");
-  console.log("t");
-  console.log("e");
-  console.log("s");
-  console.log("h");
-  
-}
-sayMyName()
-  
-function addTwonumbers(number1,number2){
-  let result = number1+ number2
-  return result
-}
-const result = addTwonumbers(3,5)
+
+// functions //
+
+
+// function sayMyName(){
+  // console.log("h");
+  // console.log("i");
+  // console.log("t");
+  // console.log("e");
+  // console.log("s");
+  // console.log("h");
+  // 
+// }
+// sayMyName()
+  // 
+// function addTwonumbers(number1,number2){
+  // let result = number1+ number2
+  // return result
+// }
+// const result = addTwonumbers(3,5)
 // console.log("result:",result);
 
 
 
 
-function LogInUserMessage(username){
-  if(username===undefined){
-console.log("Please enter your username");
+// function LogInUserMessage(username){
+  // if(username===undefined){
+// console.log("Please enter your username");
+// 
+  // }
+  // return`${username} just logged in`
+// }
+// console.log(LogInUserMessage());
 
-  }
-  return`${username} just logged in`
-}
-console.log(LogInUserMessage());
+
+// FUNCTIONS WITH OBJECTS AND ARRAY IN JAVA SCRIPT
+
 
 
 
