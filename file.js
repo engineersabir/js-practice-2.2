@@ -238,11 +238,20 @@ function addTwonumbers(number1,number2){
   return result
 }
 const result = addTwonumbers(3,5)
-console.log("result:",result);
+// console.log("result:",result);
+
+
+
+
 function LogInUserMessage(username){
+  if(username===undefined){
+console.log("Please enter your username");
+
+  }
   return`${username} just logged in`
 }
-console.log(LogInUserMessage("hitesh"));
+console.log(LogInUserMessage());
+
 
 
 
