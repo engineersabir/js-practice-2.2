@@ -260,57 +260,34 @@
 
 // FUNCTIONS WITH OBJECTS AND ARRAY IN JAVA SCRIPT
  
-function calculateCartPrice(...num1){
- return num1
-}
-console.log(calculateCartPrice(200,2222,333,100,400,8000));
+// function calculateCartPrice(...num1){
+//  return num1
+// }
+// console.log(calculateCartPrice(200,2222,333,100,400,8000));
+ 
+// const user={
+//   username:"hitesh",
+//   price:199
 
+// }
+// function handleobject(anyobject){
+//   console.log(`the username is ${anyobject.username} and price is ${anyobject.price} `);
+
+  
+// }
+
+// handleobject(user)
+//  const myNewArray=[200,400,600,100]
+//  function returnSecondValue(getArray){
+//   return getArray[0]
+//  }
+//  console.log(returnSecondValue(myNewArray));
  
 
 
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-const user={
-  username:"hitesh",
-  price:199
-
-}
-function handleobject(anyobject){
-  console.log(`the username is ${anyobject.username} and price is ${anyobject.price} `);
-
-  
-}
-
-handleobject(user)
- const myNewArray=[200,400,600,100]
- function returnSecondValue(getArray){
-  return getArray[0]
- }
- console.log(returnSecondValue(myNewArray));
- 
+let a =20;
+const b =10;
+var c=30;
+console.log(a);
+console.log(b);
+console.log(c);
