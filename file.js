@@ -211,14 +211,39 @@ const jsUser={
   lastloggedInDays:["monday","saturday"]
 }
 
-console.log(jsUser["age"]);
-console.log(jsUser.email);
+// console.log(jsUser["age"]);
+// console.log(jsUser.email);
 jsUser.greetingTwo=function(){
-  console.log(`hello JS user ,${this.name}`);
+  // console.log(`hello JS user ,${this.name}`);
   
 }
 // console.log(jsUser.greeting());
-console.log(jsUser.greetingTwo());
+// console.log(jsUser.greetingTwo());
+// console.log(Object.keys(jsUser));
+// console.log(Object.values(jsUser));
+// console.log(jsUser.hasOwnProperty('isLoggedIn'));
+function sayMyName(){
+  console.log("h");
+  console.log("i");
+  console.log("t");
+  console.log("e");
+  console.log("s");
+  console.log("h");
+  
+}
+sayMyName()
+  
+function addTwonumbers(number1,number2){
+  let result = number1+ number2
+  return result
+}
+const result = addTwonumbers(3,5)
+console.log("result:",result);
+function LogInUserMessage(username){
+  return`${username} just logged in`
+}
+console.log(LogInUserMessage("hitesh"));
+
 
 
 
