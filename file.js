@@ -292,28 +292,28 @@
 // console.log(b);
 // console.log(c);
 
-  function one(){
-    const username="hitesh"
-    function two(){
-      const website="youtube"
-      console.log(username);
+  // function one(){
+  //   const username="hitesh"
+  //   function two(){
+  //     const website="youtube"
+  //     console.log(username);
       
-    }
+  //   }
     // console.log(website);
-    two()
-  }
-  // one()
-  if(true){
-    const username='hitesh'
-    if (username==='hitesh') {
-      const website = " youtube"
-      console.log(username +website);
+  //   two()
+  // }
+  // // one()
+  // if(true){
+  //   const username='hitesh'
+  //   if (username==='hitesh') {
+  //     const website = " youtube"
+  //     console.log(username +website);
       
       
-    }
+    
     // console.log(website);
     
-  }
+  
   // console.log(username);
 
 
@@ -328,42 +328,55 @@
   //   return num+2
   // }
   // console.log(addtwo(5))
-  const user=
-   {
-    username:"hitesh",
-    price:999,
-    welcomeMessage:function(){
-      console.log('${this.username}, welcome to website');
+  // const user=
+  //  {
+  //   username:"hitesh",
+  //   price:999,
+  //   welcomeMessage:function(){
+  //     console.log('${this.username}, welcome to website');
       
-    }
-  }
-  user.welcomeMessage
-  console.log(user);
+  //   }
+  // }
+  // user.welcomeMessage
+  // console.log(user);
 
-   const chai=function(){
+  //  const chai=function(){
 //  let
-   username ="hitesh"
-    console.log(this.username);
+//    username ="hitesh"
+//     console.log(this.username);
     
-   }
-   chai()
+//    }
+//    chai()
 
-   const chhai =()=>{
-let username="hitesh chaudhary";
-console.log(this.username);
+//    const chhai =()=>{
+// let username="hitesh chaudhary";
+// console.log(this.username);
 
-   }
-   chhai()
+//    }
+//    chhai()
 
-   const addtwo=(num1,num2)=>{
-    return num1+num2
-   }
-   console.log(addtwo(4,5));
+//    const addtwo=(num1,num2)=>{
+//     return num1+num2
+//    }
+//    console.log(addtwo(4,5));
     
-   const addThree=(num1,num2,num3)=>num1+num2+num3
-   console.log(addThree(9,8,7));
+//    const addThree=(num1,num2,num3)=>num1+num2+num3
+//    console.log(addThree(9,8,7));
 
-   const addtwoo=(num1,num2)=>({username:"hitesh"})
-   console.log(addtwoo(9,9));
+//    const addtwoo=(num1,num2)=>({username:"hitesh"})
+//    console.log(addtwoo(9,9));
+
+   // MMEDIATELY INVOKED FUNCTION EXPRESSION (IIFE)
    
+(function chai(){
+  console.log('DB CONNECTED');
+  
+})
+();
    
+(
+    (name)=> {
+    console.log('DB CONNECTED TWO ${name}');
+    }
+  
+)('hitesh')
