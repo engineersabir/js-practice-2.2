@@ -315,14 +315,55 @@
     
   }
   // console.log(username);
-   console.log(addone(5))
-  function addone(num){
-    return num + 1
 
-  }
+
+  //  console.log(addone(5))
+  // function addone(num){
+  //   return num + 1
+
+  // }
  
 
-  const addtwo=function(num){
-    return num+2
+  // const addtwo=function(num){
+  //   return num+2
+  // }
+  // console.log(addtwo(5))
+  const user=
+   {
+    username:"hitesh",
+    price:999,
+    welcomeMessage:function(){
+      console.log('${this.username}, welcome to website');
+      
+    }
   }
-  console.log(addtwo(5))
+  user.welcomeMessage
+  console.log(user);
+
+   const chai=function(){
+//  let
+   username ="hitesh"
+    console.log(this.username);
+    
+   }
+   chai()
+
+   const chhai =()=>{
+let username="hitesh chaudhary";
+console.log(this.username);
+
+   }
+   chhai()
+
+   const addtwo=(num1,num2)=>{
+    return num1+num2
+   }
+   console.log(addtwo(4,5));
+    
+   const addThree=(num1,num2,num3)=>num1+num2+num3
+   console.log(addThree(9,8,7));
+
+   const addtwoo=(num1,num2)=>({username:"hitesh"})
+   console.log(addtwoo(9,9));
+   
+   
