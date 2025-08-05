@@ -285,9 +285,22 @@
  
 
 
-let a =20;
-const b =10;
-var c=30;
-console.log(a);
-console.log(b);
-console.log(c);
+// let a =20;
+// const b =10;
+// var c=30;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+  function one(){
+    const username="hitesh"
+    function two(){
+      const website="youtube"
+      console.log(username);
+      
+    }
+    // console.log(website);
+    two()
+  }
+  // one()
+  
