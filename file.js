@@ -394,25 +394,46 @@
 
 // CONTROL FLOW IN JAVA SCRIPT
 
-const temperature =41
-if (temperature===49){
-console.log("weather is hot...! ")
 
+
+// const temperature =41
+// if (temperature===49){
+// console.log("weather is hot...! ")
+
+// }else{
+//   console.log("the weather is cool though :)");
+  
+// }
+// const score=90
+
+// if (score>90){
+//   const power="fly"
+//   console.log(`user power:${power}`);
+  
+// }else{
+//   var power="burried"
+//   console.log(" user super power is: ${power}");
+// }
+// // console.log("score");
+//   const balance=1000
+//   if (balance>900)console.log("tested");
+    
+const balance=10000
+if (balance<5000) {
+  console.log("less than 5000");
+  
+}else if(balance<7500){
+  console.log("less than 7500 ");
+  
+}else if(balance<9000){
+  console.log("less than 9000");
+  
 }else{
-  console.log("the weather is cool though :)");
+  console.log("less than 12000");
   
 }
-const score=90
-
-if (score>90){
-  const power="fly"
-  console.log(`user power:${power}`);
-  
-}else{
-  var power="burried"
-  console.log(" user super power is: ${power}");
-}
-// console.log("score");
-  const balance=1000
-  if (balance>900)console.log("tested");
-  
+ const userEmail=true
+ const userName=true
+ if(userEmail&&userName){
+  console.log("allow to enter")
+ }
