@@ -383,11 +383,36 @@
 
 // JAVASCRIPT  EXECUTION CONTEXT
 
-let val1=10
-let val2=5
-function addnum(num1,num2){
-  let total=num1+num2
-  return total
+// let val1=10
+// let val2=5
+// function addnum(num1,num2){
+//   let total=num1+num2
+//   return total
+// }
+// let result1=addnum(val1,val2)
+// let result2=addnum(10,2)
+
+// CONTROL FLOW IN JAVA SCRIPT
+
+const temperature =41
+if (temperature===49){
+console.log("weather is hot...! ")
+
+}else{
+  console.log("the weather is cool though :)");
+  
 }
-let result1=addnum(val1,val2)
-let result2=addnum(10,2)
+const score=90
+
+if (score>90){
+  const power="fly"
+  console.log(`user power:${power}`);
+  
+}else{
+  var power="burried"
+  console.log(" user super power is: ${power}");
+}
+// console.log("score");
+  const balance=1000
+  if (balance>900)console.log("tested");
+  
