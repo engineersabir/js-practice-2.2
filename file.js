@@ -418,22 +418,53 @@
 //   const balance=1000
 //   if (balance>900)console.log("tested");
     
-const balance=10000
-if (balance<5000) {
-  console.log("less than 5000");
+// const balance=10000
+// if (balance<5000) {
+//   console.log("less than 5000");
   
-}else if(balance<7500){
-  console.log("less than 7500 ");
+// }else if(balance<7500){
+//   console.log("less than 7500 ");
   
-}else if(balance<9000){
-  console.log("less than 9000");
+// }else if(balance<9000){
+//   console.log("less than 9000");
   
-}else{
-  console.log("less than 12000");
+// }else{
+//   console.log("less than 12000");
   
-}
- const userEmail=true
- const userName=true
- if(userEmail&&userName){
-  console.log("allow to enter")
+// }
+//  const userEmail=true
+//  const userName=true
+//  if(userEmail&&userName){
+//   console.log("allow to enter")
+//  }
+ const userEmail=[]
+
+ if(0){
+  console.log("usergot an Email");
+  
+ }else{
+  console.log("user did not get an Email");
+  
  }
+ if(userEmail.length===0){
+  console.log("user got an Email");
+  
+ }
+ const emptyObj={}
+ if (Object.keys(emptyObj).length===0){
+console.log("Object is an empty entity");
+}
+
+//NULLISH Coalescing Operator (??):"null"  & "undefined"
+let val1;
+// val1=5??10
+// val1=null ?? 20
+val1=undefined??50??60
+console.log(val1);
+
+// Terniary Operator
+ // condition ? true : false
+
+const iceTeaPrice=100
+iceTeaPrice<=80?console.log("less than 80 "):console.log("more than 80");
+;
