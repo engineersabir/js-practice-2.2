@@ -123,7 +123,7 @@
 
   // const gameName = new String('hitesh')
   // console.log(gameName.charAt(2));
-  // console.log(gameName.indexOf('h'));
+  // console.log(gameName.iOf('h'));
   
   // const min = 10
   // const max = 20
@@ -437,34 +437,44 @@
 //  if(userEmail&&userName){
 //   console.log("allow to enter")
 //  }
- const userEmail=[]
 
- if(0){
-  console.log("usergot an Email");
+//  const userEmail=[]
+
+//  if(0){
+//   console.log("usergot an Email");
   
- }else{
-  console.log("user did not get an Email");
+//  }else{
+//   console.log("user did not get an Email");
   
- }
- if(userEmail.length===0){
-  console.log("user got an Email");
+//  }
+//  if(userEmail.length===0){
+//   console.log("user got an Email");
   
- }
- const emptyObj={}
- if (Object.keys(emptyObj).length===0){
-console.log("Object is an empty entity");
-}
+//  }
+//  const emptyObj={}
+//  if (Object.keys(emptyObj).length===0){
+// console.log("Object is an empty entity");
+// }
 
 //NULLISH Coalescing Operator (??):"null"  & "undefined"
-let val1;
+// let val1;
 // val1=5??10
 // val1=null ?? 20
-val1=undefined??50??60
-console.log(val1);
+// val1=undefined??50??60
+// console.log(val1);
 
 // Terniary Operator
  // condition ? true : false
 
-const iceTeaPrice=100
-iceTeaPrice<=80?console.log("less than 80 "):console.log("more than 80");
-;
+// const iceTeaPrice=100
+// iceTeaPrice<=80?console.log("less than 80 "):console.log("more than 80");
+// ;
+
+      //LOOPS
+for (let i = 1; i<=10; i++) {
+  const element = Number;
+  console.log("element");
+  
+  
+}
+// console.log("i");
