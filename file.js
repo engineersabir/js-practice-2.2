@@ -497,3 +497,11 @@ for (let i = 0; i <=10; i++) {
   // const element = array[i];
   
 }
+  let myHero=['flash','batman','superman']
+  console.log(myHero.length)
+  for (let index = 0; index < myHero.length; index++) {
+    const element = myHero[index];
+    console.log(element);
+    
+    
+  }
