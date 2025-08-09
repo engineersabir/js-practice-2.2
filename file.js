@@ -471,14 +471,29 @@
 // ;
 
       //LOOPS
-for (let i = 0; i<=10; i++) {
-  const element = i;
-  console.log("element");
-  if (element==5) {
-    console.log(" 5 is best number");
+
+// for (let i = 0; i<=10; i++) {
+//   const element = i;
+//   console.log("element");
+//   if (element==5) {
+//     console.log(" 5 is best number");
+    
+//   }
+  
+  
+// }
+// console.log("i");
+
+for (let i = 0; i <=10; i++) {
+  console.log(`outer loop value ${i}`);
+  for (let j = 0; j <= 10; j++) {
+    // const element = array[j];
+    // console.log(`outr loop value ${j} and inner loop value ${i}`);
+    
+    console.log(i+'*'+j+'='+i*j);
     
   }
   
+  // const element = array[i];
   
 }
-// console.log("i");
