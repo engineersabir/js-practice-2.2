@@ -505,3 +505,10 @@ for (let i = 0; i <=10; i++) {
     
     
   }
+  // break & continue
+
+  for (let index = 1; index <=40; index++) {
+    console.log(`the value index is ${index}`);
+    
+    
+  }
