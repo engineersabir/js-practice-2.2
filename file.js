@@ -507,7 +507,25 @@ for (let i = 0; i <=10; i++) {
   }
   // break & continue
 
+
+
+  // for (let index = 1; index <=40; index++) {
+
+  //   if (index==33) {
+  //     console.log(`detected 33`);
+  //     break
+  //   }
+  //   console.log(`the value index is ${index}`);
+    
+    
+  // }
+
   for (let index = 1; index <=40; index++) {
+
+    if (index==33) {
+      console.log(`detected 33`);
+      continue
+    }
     console.log(`the value index is ${index}`);
     
     
