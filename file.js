@@ -484,27 +484,28 @@
 // }
 // console.log("i");
 
-for (let i = 0; i <=10; i++) {
-  console.log(`outer loop value ${i}`);
-  for (let j = 0; j <= 10; j++) {
+
+// for (let i = 0; i <=10; i++) {
+//   console.log(`outer loop value ${i}`);
+//   for (let j = 0; j <= 10; j++) {
     // const element = array[j];
     // console.log(`outr loop value ${j} and inner loop value ${i}`);
     
-    console.log(i+'*'+j+'='+i*j);
+  //   console.log(i+'*'+j+'='+i*j);
     
-  }
+  // }
   
   // const element = array[i];
   
-}
-  let myHero=['flash','batman','superman']
-  console.log(myHero.length)
-  for (let index = 0; index < myHero.length; index++) {
-    const element = myHero[index];
-    console.log(element);
+// }
+//   let myHero=['flash','batman','superman']
+//   console.log(myHero.length)
+//   for (let index = 0; index < myHero.length; index++) {
+//     const element = myHero[index];
+//     console.log(element);
     
     
-  }
+//   }
   // break & continue
 
 
@@ -520,13 +521,32 @@ for (let i = 0; i <=10; i++) {
     
   // }
 
-  for (let index = 1; index <=40; index++) {
+  // for (let index = 1; index <=40; index++) {
 
-    if (index==33) {
-      console.log(`detected 33`);
-      continue
-    }
-    console.log(`the value index is ${index}`);
+  //   if (index==33) {
+  //     console.log(`detected 33`);
+  //     continue
+  //   }
+  //   console.log(`the value index is ${index}`);
     
+    
+  // }
+ 
+  let index=0
+  while (index<=100){
+    console.log(`the value of index is ${index}`);
+    index=index+3
     
   }
+  let myArray=['flash','batman','superman']
+  let arr =0
+  while(arr<myArray.length){
+    console.log(`the value of arr is ${myArray[arr]}`);
+    arr=arr+1
+    
+  }
+  let score=1
+  do {
+    console.log(`Score is ${score}`);
+    score++
+  } while (score<=10);
