@@ -532,21 +532,42 @@
     
   // }
  
-  let index=0
-  while (index<=100){
-    console.log(`the value of index is ${index}`);
-    index=index+3
+  // let index=0
+  // while (index<=100){
+  //   console.log(`the value of index is ${index}`);
+  //   index=index+3
+    
+  // }
+  // let myArray=['flash','batman','superman']
+  // let arr =0
+  // while(arr<myArray.length){
+  //   console.log(`the value of arr is ${myArray[arr]}`);
+  //   arr=arr+1
+    
+  // }
+  // let score=1
+  // do {
+  //   console.log(`Score is ${score}`);
+  //   score++
+  // } while (score<=10);
+
+  const arr=[1,2,3,4,5]
+
+  for (const num of arr){
+    // console.log(num);
     
   }
-  let myArray=['flash','batman','superman']
-  let arr =0
-  while(arr<myArray.length){
-    console.log(`the value of arr is ${myArray[arr]}`);
-    arr=arr+1
+  
+  const greetings="hello world "
+
+  for (const greet of greetings) {
+    // console.log(`Each char is ${greet}`);
     
   }
-  let score=1
-  do {
-    console.log(`Score is ${score}`);
-    score++
-  } while (score<=10);
+  const map=new Map()
+  map.set('PK',"Pakistan")
+  map.set('IN',"India")
+  map.set('NZ',"New Zealand")
+  map.set('USA',"United States of America")
+  console.log(map);
+  
