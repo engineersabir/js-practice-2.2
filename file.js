@@ -551,23 +551,63 @@
   //   score++
   // } while (score<=10);
 
-  const arr=[1,2,3,4,5]
+  // const arr=[1,2,3,4,5]
 
-  for (const num of arr){
+  // for (const num of arr){
     // console.log(num);
     
-  }
+  // }
   
-  const greetings="hello world "
+  // const greetings="hello world "
 
-  for (const greet of greetings) {
+  // for (const greet of greetings) {
     // console.log(`Each char is ${greet}`);
     
-  }
-  const map=new Map()
-  map.set('PK',"Pakistan")
-  map.set('IN',"India")
-  map.set('NZ',"New Zealand")
-  map.set('USA',"United States of America")
-  console.log(map);
+  // }
+
+
+  // const map=new Map()
+  // map.set('PK',"Pakistan")
+  // map.set('IN',"India")
+  // map.set('NZ',"New Zealand")
+  // map.set('USA',"United States of America")
+  // console.log(map);
   
+  // MAP
+   const coding=["js", "ruby","java","python","cpp"]
+   coding.forEach(function(item){
+    // console.log(item);
+    
+   })
+
+   function printMe(val){
+    // console.log(val);
+    
+   }
+   coding.forEach(printMe)
+   coding.forEach((item,index,arr)=>{
+    // console.log(item,index,arr);
+    
+   })
+   const myCoding=[
+    {
+      language:"javascript",
+      languageFileName:"js"
+    },
+    {
+      language:"java",
+      languageFileName:"java"
+    },
+    {
+      language:"python",
+      languageFileName:"py"
+    }
+   ]
+   myCoding.forEach((item)=>{
+    // console.log(item.languageFileName);
+    
+   })
+   const myNums=[1,2,3,4,5,6,7,8,9,10]
+   const newNums=myNums.filter((num)=>num<3)
+   console.log(newNums);
+   

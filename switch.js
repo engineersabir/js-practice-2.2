@@ -40,6 +40,7 @@
 //     default:
 //         break;
 // }
+
 const myObject={
     js:'javascript',
     cpp:'c++',
