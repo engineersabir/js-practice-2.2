@@ -41,17 +41,31 @@
 //         break;
 // }
 
-const myObject={
-    js:'javascript',
-    cpp:'c++',
-    py:'python',
-    rb:'ruby',
-    swift:'swift'
-}
-for (const key in myObject) {
-        // console.log(myObject[key]);
-        console.log(`${key} shortcut for ${myObject[key]}`);
+
+// const myObject={
+//     js:'javascript',
+//     cpp:'c++',
+//     py:'python',
+//     rb:'ruby',
+//     swift:'swift'
+// }
+// for (const key in myObject) {
+//         // console.log(myObject[key]);
+//         console.log(`${key} shortcut for ${myObject[key]}`);
         
         
     
-}
+// 
+
+function num(num1=1){
+    if (num1<=100) {
+        console.log(num1);
+        num(num1+1)
+    }
+    else{
+        console.log("the value is greater than 100");
+        
+    }
+
+ 
+}num()
