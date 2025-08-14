@@ -59,13 +59,35 @@
 
 function num(num1=1){
     if (num1<=100) {
-        console.log(num1);
+        // console.log(num1);
         num(num1+1)
     }
     else{
-        console.log("the value is greater than 100");
+        // console.log("the value is greater than 100");
         
     }
 
  
 }num()
+
+const greeting="helloworld";
+  (greeting) =>{
+// console.log(`${greeting}`);
+
+}
+const vowels=["a","e","i","o","u"]
+console.log(vowels.length);
+
+
+let num4=5;
+if (num4%5==0) {
+    console.log(`${num4} is prime number`)
+    
+        // (console.log("THE NUMBER IS ODD "////);
+        
+    
+    
+}else{
+    console.log("THE GIVEN NUMBER IS NOT A PRIME NUMBER");
+    
+}
