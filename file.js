@@ -574,40 +574,42 @@
   // console.log(map);
   
   // MAP
-   const coding=["js", "ruby","java","python","cpp"]
-   coding.forEach(function(item){
-    // console.log(item);
+  //  const coding=["js", "ruby","java","python","cpp"]
+  //  coding.forEach(function(item){
+  //   // console.log(item);
     
-   })
+  //  })
 
-   function printMe(val){
-    // console.log(val);
+  //  function printMe(val){
+  //   // console.log(val);
     
-   }
-   coding.forEach(printMe)
-   coding.forEach((item,index,arr)=>{
-    // console.log(item,index,arr);
+  //  }
+  //  coding.forEach(printMe)
+  //  coding.forEach((item,index,arr)=>{
+  //   // console.log(item,index,arr);
     
-   })
-   const myCoding=[
-    {
-      language:"javascript",
-      languageFileName:"js"
-    },
-    {
-      language:"java",
-      languageFileName:"java"
-    },
-    {
-      language:"python",
-      languageFileName:"py"
-    }
-   ]
-   myCoding.forEach((item)=>{
-    // console.log(item.languageFileName);
+  //  })
+  //  const myCoding=[
+  //   {
+  //     language:"javascript",
+  //     languageFileName:"js"
+  //   },
+  //   {
+  //     language:"java",
+  //     languageFileName:"java"
+  //   },
+  //   {
+  //     language:"python",
+  //     languageFileName:"py"
+  //   }
+  //  ]
+  //  myCoding.forEach((item)=>{
+  //   // console.log(item.languageFileName);
     
-   })
-   const myNums=[1,2,3,4,5,6,7,8,9,10]
-   const newNums=myNums.filter((num)=>num<3)
-   console.log(newNums);
+  //  })
+  //  const myNums=[1,2,3,4,5,6,7,8,9,10]
+  //  const newNums=myNums.filter((num)=>num<3)
+  // //  console.log(newNums);
    
+// let vowels="aeiou";
+// console.log(vowels.length)

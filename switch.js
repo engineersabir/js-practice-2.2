@@ -75,6 +75,7 @@ const greeting="helloworld";
 // console.log(`${greeting}`);
 
 }
+
 const vowels=["a","e","i","o","u"]
 console.log(vowels.length);
 
@@ -90,4 +91,5 @@ if (num4%5==0) {
 }else{
     console.log("THE GIVEN NUMBER IS NOT A PRIME NUMBER");
     
-}
+};
+
