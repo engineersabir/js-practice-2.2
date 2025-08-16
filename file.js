@@ -640,6 +640,8 @@ const books=[
 ]
 const userBooks=books.filter((bks)=>bks.genre==='mystery')
 const user2Books=books.filter((bks2)=>bks2.genre==='horror')
+user4Books=books.filter((bks4)=>{return bks4.publish>=909})
 console.log(userBooks);
 console.log((user2Books));
+console.log(user4Books);
 
