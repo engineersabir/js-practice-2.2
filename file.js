@@ -612,4 +612,34 @@
   // //  console.log(newNums);
    
 // let vowels="aeiou";
+
 // console.log(vowels.length)
+// const 
+const myNums=[1,2,3,4,6,5,7,8,9,10]
+const newNums=myNums.filter((num)=>num>4)
+// console.log(newNums);
+
+const books=[
+
+  {
+    title:'book 1',genre:'fiction',publish:'1230',edition:'2034'
+  },
+  
+  {
+    title:'book 2',genre:'mystery',publish:'909',edition:'4034'
+  },
+  {
+    title:'book 3',genre:'horror',publish:'7869',edition:'0234'
+  },
+  {
+    title:'book 4',genre:'history',publish:'9090',edition:'2023'
+  },
+  {
+    title:'book 5',genre:'non-fiction',publish:'4366',edition:'2024'
+  }
+]
+const userBooks=books.filter((bks)=>bks.genre==='mystery')
+const user2Books=books.filter((bks2)=>bks2.genre==='horror')
+console.log(userBooks);
+console.log((user2Books));
+
