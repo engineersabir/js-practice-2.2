@@ -615,33 +615,55 @@
 
 // console.log(vowels.length)
 // const 
-const myNums=[1,2,3,4,6,5,7,8,9,10]
-const newNums=myNums.filter((num)=>num>4)
+// const myNums=[1,2,3,4,6,5,7,8,9,10]
+// const newNums=myNums.filter((num)=>num>4)
 // console.log(newNums);
 
-const books=[
+// const books=[
 
-  {
-    title:'book 1',genre:'fiction',publish:'1230',edition:'2034'
-  },
+//   {
+//     title:'book 1',genre:'fiction',publish:'1230',edition:'2034'
+//   },
   
-  {
-    title:'book 2',genre:'mystery',publish:'909',edition:'4034'
-  },
-  {
-    title:'book 3',genre:'horror',publish:'7869',edition:'0234'
-  },
-  {
-    title:'book 4',genre:'history',publish:'9090',edition:'2023'
-  },
-  {
-    title:'book 5',genre:'non-fiction',publish:'4366',edition:'2024'
-  }
-]
-const userBooks=books.filter((bks)=>bks.genre==='mystery')
-const user2Books=books.filter((bks2)=>bks2.genre==='horror')
-user4Books=books.filter((bks4)=>{return bks4.publish>=909})
-console.log(userBooks);
-console.log((user2Books));
-console.log(user4Books);
+//   {
+//     title:'book 2',genre:'mystery',publish:'909',edition:'4034'
+//   },
+//   {
+//     title:'book 3',genre:'horror',publish:'7869',edition:'0234'
+//   },
+//   {
+//     title:'book 4',genre:'history',publish:'9090',edition:'2023'
+//   },
+//   {
+//     title:'book 5',genre:'non-fiction',publish:'4366',edition:'2024'
+//   }
+// ]
+// const userBooks=books.filter((bks)=>bks.genre==='mystery')
+// const user2Books=books.filter((bks2)=>bks2.genre==='horror')
+// user4Books=books.filter((bks4)=>{return bks4.publish>=909})
+// console.log(userBooks);
+// console.log((user2Books));
+// console.log(user4Books);
 
+
+// shoppingCart=[
+//   {
+//     course:'js course',
+//     price:2999
+//   },
+// {
+//     course:'swift course',
+//     price:9999
+//   },{
+//     course:'c++ course',
+//     price:6999
+//   },{
+//     course:'c# course',
+//     price:4999
+//   },{
+//     course:'py course',
+//     price:999
+//   },
+// ]
+// const priceToPay = shoppingCart.reduce((acc,course)=>acc +course.price,0)
+// console.log(priceToPay);
