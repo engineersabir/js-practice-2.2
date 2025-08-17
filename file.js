@@ -667,3 +667,4 @@
 // ]
 // const priceToPay = shoppingCart.reduce((acc,course)=>acc +course.price,0)
 // console.log(priceToPay);
+document.getElementsByClassName('list-item')
