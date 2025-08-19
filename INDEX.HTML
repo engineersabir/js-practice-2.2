@@ -11,17 +11,27 @@ color: #fff;
     }
 </style>
 <body class="bg-black">
-    <div class="parent">
-        <div class="day">MOnday</div>
-        <div class="day">Tuesday</div>
-        <div class="day">Thursday</div>
-        <div class="day">Wednesday</div>
-        <div class="day">Friday</div>
-        <div class="day">Saturday</div>
-        <div class="day">Sunday</div>
-    </div>
-    <script src="file.js">
+    <ul class="language">
+        <li>Java Script</li>
+    </ul>
+</body>
+
+
+    <script>
+        
+function addLanguage(langName){
+  const li=document.createElement('li');
+  li.innerHTML=`${langName}`
+  document.querySelector('.language').
+  appendChild(li)
+}
+addLanguage("python")
+addLanguage("typescript")
+addLanguage("java")
+addLanguage("ruby")
+const Lastlang=document.querySelector('li:last-child')
+Lastlang.remove
         
     </script>
-</body>
 </html>
+

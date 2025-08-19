@@ -497,9 +497,7 @@
   
   // const element = array[i];
   
-// }
-//   let myHero=['flash','batman','superman']
-//   console.log(myHero.length)
+// }//   let myHero=['flash','batman','superman']//   console.log(myHero.length)
 //   for (let index = 0; index < myHero.length; index++) {
 //     const element = myHero[index];
 //     console.log(element);
@@ -668,7 +666,7 @@
 // const priceToPay = shoppingCart.reduce((acc,course)=>acc +course.price,0)
 // console.log(priceToPay);
 // document.getElementsByClassName('list-item')
-const parent=document.querySelector('.parent')
-console.log(parent);
-console.log(parent.children);
 
+// const parent=document.querySelector('.parent')
+// console.log(parent);
+// console.log(parent.children);
