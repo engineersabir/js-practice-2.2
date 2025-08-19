@@ -7,5 +7,7 @@
 ``` javascript
 console.log("hitesh")
 
+const buttonBubble=document.querySelectorAll('h2')
+const buttonBubble=document.querySelector('h3')
 
 ```
