@@ -94,6 +94,7 @@
     
 // };
 
+
 let num1=8;
 if (num1%5==0){
     console.log(`${num1} is a prime no. though`);
@@ -103,3 +104,11 @@ if (num1%5==0){
     console.log("you give the wrong number");
     
 };
+const num3=990
+if(num3<890){
+    console.log(`${num3} is less than 890`);
+    
+}else{
+    console.log("this is not a big value");
+    
+}
