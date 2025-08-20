@@ -94,3 +94,12 @@
     
 // };
 
+let num1=8;
+if (num1%5==0){
+    console.log(`${num1} is a prime no. though`);
+    
+    
+}else{
+    console.log("you give the wrong number");
+    
+};
