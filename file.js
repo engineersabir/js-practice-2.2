@@ -670,3 +670,8 @@
 // const parent=document.querySelector('.parent')
 // console.log(parent);
 // console.log(parent.children);
+let a= 5, b=10;
+a=a+b;
+b=a-b;
+a-a-b;
+console.log(a,b);
