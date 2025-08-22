@@ -673,5 +673,14 @@
 let a= 5, b=10;
 a=a+b;
 b=a-b;
-a-a-b;
-console.log(a,b);
+a=a-b;
+// console.log(a,b)
+// ;
+let c=5
+,d=10;
+c=c^d;
+d=c^d;
+c=c^d;
+console.log(c,d);
+
+
