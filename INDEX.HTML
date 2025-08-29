@@ -70,17 +70,21 @@ Lastlang.remove
 
 
 
-        document.getElementById('photoshop2').addEventListener('click',function(){
+        document.getElementById('photoshop2').addEventListener('click',function(e){
             // alert("another picture")
             console.log(" pic is saved")
+            e.stopPropagation()
         },true)
+
         // type, timestamp, deafaultPrevented,
         // clientX, clientY,screenX,screenY
         //altKey,ctrlKey,shiftKey,KeyCode
         //target,toElement, currentTaget
     
     
-
+document.getElementById('google').addEventListener('click',function(e){
+    console.log(' google is clicked')
+e.preventDefault()})
 
     </script>
 </body>
