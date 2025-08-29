@@ -64,7 +64,7 @@ Lastlang.remove
     <script>
         document.getElementById('photoshop').addEventListener('click',function(e){
             // alert("the pic is clicked")
-            console.log("abc xyz");
+            // console.log("abc xyz");
             
         },true)
 
@@ -72,7 +72,7 @@ Lastlang.remove
 
         document.getElementById('photoshop2').addEventListener('click',function(e){
             // alert("another picture")
-            console.log(" pic is saved")
+            // console.log(" pic is saved")
             e.stopPropagation()
         },true)
 
@@ -83,8 +83,11 @@ Lastlang.remove
     
     
 document.getElementById('google').addEventListener('click',function(e){
-    console.log(' google is clicked')
+    // console.log(' google is clicked')
 e.preventDefault()})
+document.querySelector('#images').addEventListener('click',function(e){
+    console.log(e.target.parentNode)
+})
 
     </script>
 </body>
