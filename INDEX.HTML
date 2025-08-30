@@ -86,7 +86,12 @@ document.getElementById('google').addEventListener('click',function(e){
     // console.log(' google is clicked')
 e.preventDefault()})
 document.querySelector('#images').addEventListener('click',function(e){
-    console.log(e.target.parentNode)
+    console.log(e.target.tagName);
+    if(e.target.tagName==='img'){
+        console.log(e.target.id);
+        let removeIt=e.target.parentNode
+        removeIt.remove()
+    }
 })
 
     </script>
