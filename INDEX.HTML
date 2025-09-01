@@ -59,7 +59,11 @@ const changeText=function(){
     document.querySelector('h1').innerHTML="pakistan is best"
 }
 
-setTimeout(changeText,2000)        
+setTimeout(changeText,2000) 
+document.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(changeMe)
+    console.log("stopped")
+})       
 </script>
 </body>
 </html>
