@@ -1,42 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<style>
-    .bg-black{
-background-color: black;
-color: #fff;
-    }
-</style>
-<body class="bg-black">
-    <ul class="language">
-        <li>Java Script</li>
-    </ul>
-</body>
-
-
-    <script>
-        
-function addLanguage(langName){
-  const li=document.createElement('li');
-  li.innerHTML=`${langName}`
-  document.querySelector('.language').
-  appendChild(li)
-}
-addLanguage("python")
-addLanguage("typescript")
-addLanguage("java")
-addLanguage("ruby")
-addLanguage("c#")
-const Lastlang=document.querySelector('li:last-child')
-Lastlang.remove
-        
-    </script>
-</html>
- -->
-  
 
 <!DOCTYPE html>
 <html lang="en">
@@ -46,24 +7,20 @@ Lastlang.remove
     <title>Document</title>
 </head>
 <body>
+    <h1>chai or java script</h1>
+     <button id="stop">stop</button>
+     <button id="start">start</button>
 
-    <h1>chai or code</h1>
-    <button id="stop">stop</button>
-<script>
- const sayHitesh=function(){
-    
-document.querySelector('h1').innerHTML="best js series"
-    console.log('hitesh');
-}
-const changeText=function(){
-    document.querySelector('h1').innerHTML="pakistan is best"
-}
+     <script>
 
-setTimeout(changeText,2000) 
-document.querySelector('#stop').addEventListener('click',function(){
-    clearTimeout(changeMe)
-    console.log("stopped")
-})       
-</script>
+const sayDate=function(str){
+    console.log(str,Date.now());
+}
+setInterval(sayDate,1000,'hit')
+
+const intervalId=setInterval(sayDate,1000,"hitesh")
+clearInterval(intervalId)
+     
+        </script>
 </body>
 </html>
