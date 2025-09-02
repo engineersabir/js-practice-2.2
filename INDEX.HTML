@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    
+</style>
 <body>
     <h1>chai or java script</h1>
      <button id="stop">stop</button>
@@ -25,12 +28,17 @@ const  randomColor=function(){
     const hex="0123456789abcdef"
     let color="#"
     for (let i=0; i<6;i++){
+        color+=hex[Math.floor(Math.random()*16)];
 
     }
+    return color;
 
 
 }
-console.log(Math.floor(Math.random()*16));
+// console.log(Math.floor(Math.random()*16));
+console.log(randomColor())
+
+document.querySelector("#start").addEventListener('click',startchangingColor);
      
         </script>
 </body>
