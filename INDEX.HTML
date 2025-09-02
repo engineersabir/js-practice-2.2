@@ -34,12 +34,29 @@ const  randomColor=function(){
     return color;
 
 
-}
+};
+
 // console.log(Math.floor(Math.random()*16));
-console.log(randomColor())
+// console.log(randomColor())
+
+let intervalId;
+
+const startchangingColor=function(){
+    
+     intervalId= setInterval (changebgColor,1000);
+function changebgColor(){
+        document.body.style.backgroundColor=randomColor();
+
+}
+
+};
+
+const stopchangingColor=function(){
+clearInterval(intervalId);
+};
 
 document.querySelector("#start").addEventListener('click',startchangingColor);
-     
+     document.querySelector("#stop").addEventListener('click',stopchangingColor);
         </script>
 </body>
 </html>
