@@ -670,17 +670,45 @@
 // const parent=document.querySelector('.parent')
 // console.log(parent);
 // console.log(parent.children);
-let a= 5, b=10;
-a=a+b;
-b=a-b;
-a=a-b;
-// console.log(a,b)
-// ;
-let c=5
-,d=10;
-c=c^d;
-d=c^d;
-c=c^d;
-console.log(c,d);
 
 
+// let a= 5, b=10;
+// a=a+b;
+// b=a-b;
+// a=a-b;
+// // console.log(a,b)
+// // ;
+// let c=5
+// ,d=10;
+// c=c^d;
+// d=c^d;
+// c=c^d;
+// console.log(c,d);
+
+
+
+const insert=document.getElementById('insert')
+
+window.addEventListener('keydown',(e)=>{
+    insert.innerHTML=
+`
+    <div class="color">
+        <table>
+  <tr>
+    <th>Key</th>
+    <th>KeyCode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td> ${e.Key===''?'space':e.Key} </td>
+    <td>${e.KeyCode}</td>
+    <td>${e.Code}</td>
+  </tr>
+
+  
+</table>
+        
+        </div>
+        
+`;
+});
