@@ -498,7 +498,7 @@
   // const element = array[i];
   
 // }//   let myHero=['flash','batman','superman']//   console.log(myHero.length)
-//   for (let index = 0; index < myHero.length; index++) {
+0//   for (let index = 0; index < myHero.length; index++) {
 //     const element = myHero[index];
 //     console.log(element);
     
@@ -712,3 +712,21 @@
         
 // `;
 // });
+const promiseOne=new Promise(function(resolve,reject){
+  setTimeout(function(){
+    console.log('async task is complete');
+    resolve()
+  },1000)
+})
+promiseOne.then(function(){
+  console.log("promise is consumed")
+})
+
+new Promise(function(resolve,reject){
+
+setTimeout(function(){
+  console.log('async 2 task is completed')
+  resolve()
+},1000)
+
+})
