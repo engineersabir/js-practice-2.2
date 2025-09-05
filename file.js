@@ -826,16 +826,28 @@
 //   console.log(error)
 // })
 
-const user={
-  userName:'hitesh',
-  logInCount:8,
-   signIn:true,
-   getUserDetails: function(){
+// const user={
+//   userName:'hitesh',
+//   logInCount:8,
+//    signIn:true,
+  //  getUserDetails: function(){
     // console.log(`userName:${this.userName}`)
-  console.log(this) 
+  // console.log(this) 
   
-  }
+  // }
+// }
+
+// console.log(user.logInCount);
+// console.log(user.getUserDetails());
+// console.log(this)
+
+function User(userName,logInCount,isLoggedIn){
+  this.userName=userName;
+  this.logInCount=logInCount;
+  this.isLoggedIn=isLoggedIn;
+  return this
+
 }
-console.log(user.logInCount);
-console.log(user.getUserDetails());
-console.log(this)
+const UserOne= User('hitesh',12,true)
+const UserTwo=User('chai or code ', 34,false)
+console.log(UserOne);
