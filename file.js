@@ -845,9 +845,14 @@ function User(userName,logInCount,isLoggedIn){
   this.userName=userName;
   this.logInCount=logInCount;
   this.isLoggedIn=isLoggedIn;
+
+  this.greeting=function(){
+    console.log(`Welcome ${this.userName}`);
+  }
   return this
 
 }
-const UserOne= User('hitesh',12,true)
-const UserTwo=User('chai or code ', 34,false)
+const UserOne= new User('hitesh',12,true)
+const UserTwo= new User('chai or code ', 34,false)
 console.log(UserOne);
+console.log(UserTwo);
