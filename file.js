@@ -879,59 +879,72 @@
 //  const tea= new createUser ('tea',350)
 
 //  tea.printMe()
-let myName='sabir'
+// let myName='sabir'
 // console.log(myName.trueLength)
 
-let myHeros=['thor','spiderman']
+// let myHeros=['thor','spiderman']
 
-let herPower={
-  thor:'hammer',
-  spiderman:'sling',
+// let herPower={
+//   thor:'hammer',
+//   spiderman:'sling',
 
-  getSpiderPower:function(){
-    // console.log(`spidy power is ${this.spiderman}`);
-  }
-}
-Object.prototype.hitesh=function(){
-  console.log(`hitesh is present in all objects`);
+//   getSpiderPower:function(){
+//     // console.log(`spidy power is ${this.spiderman}`);
+//   }
+// }
+// Object.prototype.hitesh=function(){
+//   console.log(`hitesh is present in all objects`);
 
-}
-Array.prototype.heyHitesh=function(){
-  // console.log(`hitesh says hello `);
-}
+// }
+// Array.prototype.heyHitesh=function(){
+//   // console.log(`hitesh says hello `);
+// }
 
 // herPower().getSpiderPower
 // myHeros.hitesh()
 // myHeros.heyHitesh()
 // herPower.heyHitesh()
 
- const User={
-name:'chai',
-email:'chai@google.com'
- }
+//  const User={
+// name:'chai',
+// email:'chai@google.com'
+//  }
 
-const Teacher={
-  makeVideos:true
-}
-const TeachingSupport={
-  isAvailable:false
-}
-const TASupport={
-  makeAssignments:'js assignments',
-  fullTime:true,
-  __proto__:TeachingSupport
-}
-Teacher.__proto__=User
+// const Teacher={
+//   makeVideos:true
+// }
+// const TeachingSupport={
+//   isAvailable:false
+// }
+// const TASupport={
+//   makeAssignments:'js assignments',
+//   fullTime:true,
+//   __proto__:TeachingSupport
+// }
+// Teacher.__proto__=User
 
-// modern Syntax
-Object.setPrototypeOf(TeachingSupport,Teacher)
-let anotherUsername='Chai Code     '
+// // modern Syntax
+// Object.setPrototypeOf(TeachingSupport,Teacher)
+// let anotherUsername='Chai Code     '
 
-String.prototype.truelength=function(){
-  console.log(`${this}`)
-  // console.log(`${this.name}`)
-  console.log(`True length is :${this.trim().length}`)
+// String.prototype.truelength=function(){
+//   console.log(`${this}`)
+//   // console.log(`${this.name}`)
+//   console.log(`True length is :${this.trim().length}`)
+// }
+// anotherUsername.truelength()
+// "hitesh".truelength()
+// "iceTea".truelength()
+
+function setUsername0 (username){
+  // complex DB collections
+  this.username= username
+  console.log('called');
 }
-anotherUsername.truelength()
-"hitesh".truelength()
-"iceTea".truelength()
+function createUser(username,email,password){
+  setUsername0.call(this,username)
+  this.email=email
+  this.password=password
+}
+const chai = new createUser('chai','chai@File.com', '1234')
+console.log(chai);
