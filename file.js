@@ -966,9 +966,9 @@ class user{
  
     }
 }
-const chai= new user ("chai", "chai@gmaail.com","123")
-console.log(chai.encryptPassword());
-console.log(chai.changeUserName());
+const chai1= new user ("chai", "chai@gmaail.com","123")
+console.log(chai1.encryptPassword());
+console.log(chai1.changeUserName());
 
 class User{
   constructor(username){
@@ -984,4 +984,15 @@ class Teacher extends User{
     this.email=email
     this.password=password
   }
+
+  addCourse(){
+    console.log(`A new course was added by ${this.username}`)
+  }
 }
+const chai = new Teacher ("chai", "chai@gmail.com","123")
+chai.addCourse()
+masalaChai.logMe()
+const masalaChai=new User("masalaChai")
+
+console.log(chai instanceof Teacher)
+console.log(chai instanceof user)
