@@ -936,15 +936,52 @@
 // "hitesh".truelength()
 // "iceTea".truelength()
 
-function setUsername0 (username){
+// function setUsername0 (username){
   // complex DB collections
-  this.username= username
-  console.log('called');
+
+//   this.username= username
+//   console.log('called');
+// }
+// function createUser(username,email,password){
+//   setUsername0.call(this,username)
+//   this.email=email
+//   this.password=password
+// }
+// const chai = new createUser('chai','chai@File.com', '1234')
+// console.log(chai);
+ 
+class user{
+  constructor (username,email,password){
+    this.username=username;
+    this.email=email;
+    this.password=password;
+  }
+  encryptPassword(){
+    return`${this.password}anbani`
+     }
+     
+    changeUserName(){
+
+    return`${this.username.toUpperCase()}`
+ 
+    }
 }
-function createUser(username,email,password){
-  setUsername0.call(this,username)
-  this.email=email
-  this.password=password
+const chai= new user ("chai", "chai@gmaail.com","123")
+console.log(chai.encryptPassword());
+console.log(chai.changeUserName());
+
+class User{
+  constructor(username){
+    this.username=username
+  }
+  logMe(){
+    console.log(`UserNAME is ${this.username}`)
+  }
 }
-const chai = new createUser('chai','chai@File.com', '1234')
-console.log(chai);
+class Teacher extends User{
+  constructor(username,email,password){
+    super(username)
+    this.email=email
+    this.password=password
+  }
+}
