@@ -950,49 +950,72 @@
 // const chai = new createUser('chai','chai@File.com', '1234')
 // console.log(chai);
  
-class user{
-  constructor (username,email,password){
-    this.username=username;
-    this.email=email;
-    this.password=password;
-  }
-  encryptPassword(){
-    return`${this.password}anbani`
-     }
+// class user{
+//   constructor (username,email,password){
+//     this.username=username;
+//     this.email=email;
+//     this.password=password;
+//   }
+//   encryptPassword(){
+//     return`${this.password}anbani`
+//      }
      
-    changeUserName(){
+//     changeUserName(){
 
-    return`${this.username.toUpperCase()}`
+//     return`${this.username.toUpperCase()}`
  
-    }
-}
-const chai1= new user ("chai", "chai@gmaail.com","123")
-console.log(chai1.encryptPassword());
-console.log(chai1.changeUserName());
+//     }
+// }
+// const chai1= new user ("chai", "chai@gmaail.com","123")
+// console.log(chai1.encryptPassword());
+// console.log(chai1.changeUserName());
+
+// class User{
+//   constructor(username){
+//     this.username=username
+//   }
+//   logMe(){
+//     console.log(`UserNAME is ${this.username}`)
+//   }
+// }
+// class Teacher extends User{
+//   constructor(username,email,password){
+//     super(username)
+//     this.email=email
+//     this.password=password
+//   }
+
+//   addCourse(){
+//     console.log(`A new course was added by ${this.username}`)
+//   }
+// }
+// const chai = new Teacher ("chai", "chai@gmail.com","123")
+// chai.addCourse()
+// masalaChai.logMe()
+// const masalaChai=new User("masalaChai")
+
+// console.log(chai instanceof Teacher)
+// console.log(chai instanceof user)
 
 class User{
   constructor(username){
     this.username=username
   }
   logMe(){
-    console.log(`UserNAME is ${this.username}`)
+    console.log(`username:${this.username}`)
+  }
+   static createId(){
+    return `123`
   }
 }
+const hitesh=new User("hitesh")
+// console.log(hitesh.createId())
+
 class Teacher extends User{
-  constructor(username,email,password){
-    super(username)
-    this.email=email
-    this.password=password
-  }
-
-  addCourse(){
-    console.log(`A new course was added by ${this.username}`)
+  constructor (username,email){
+super(username)
+this.email=email
   }
 }
-const chai = new Teacher ("chai", "chai@gmail.com","123")
-chai.addCourse()
-masalaChai.logMe()
-const masalaChai=new User("masalaChai")
-
-console.log(chai instanceof Teacher)
-console.log(chai instanceof user)
+const iphone= new Teacher("iphone","i@phone.com")
+console.log(iphone.createId());
