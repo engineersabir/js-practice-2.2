@@ -7,35 +7,54 @@
 </head>
 <body>
     <!-- <h2>hi there</h2> -->
+     <button id="orange">orange</button>
+<button id="green">green</button>
+    <!-- <script> -->
+<!-- 
+// function outer(){
+//     let username='abcdefghijkl'
+//     function inner(){
+//         let secret='mysec123'
+//         console.log('inner',username)
+//     }
+//  function innertwo(){
+//     console.log('innertwo',username)
+//     console.log(secret)
+//  }
+
+//     inner()
+//     innertwo()
+// }
+// outer()
+// console.log('outer',username)
+
+
+// function makeFun(){
+//     const name='mozilla';
+//     function displayName(){
+//         console.log(name)
+//     }
+//     return displayName;
+// } -->
+<!-- // const myFunc=makeFun(); -->
+<!-- // myFunc(); -->
+
+    <!-- </script> -->
+    <script></script>
 
     <script>
-function outer(){
-    let username='abcdefghijkl'
-    function inner(){
-        let secret='mysec123'
-        console.log('inner',username)
-    }
- function innertwo(){
-    console.log('innertwo',username)
-    console.log(secret)
- }
+        // document.getElementById('orange').onclick=function(){
+        //     document.body.style.backgroundColor='orange'
+        // },
 
-    inner()
-    innertwo()
-}
-outer()
-console.log('outer',username)
 
-function makeFun(){
-    const name='mozilla';
-    function displayName(){
-        console.log(name)
-    }
-    return displayName;
-}
-const myFunc=makeFun();
-myFunc();
-
+        // document.getElementById('green').onclick=function(){
+        //     document.body.style.backgroundColor='green'
+        // }
+        function clickHandler(color){
+            document.body.style.backgroundColor=`${color}`
+        }
+        document.getElementById('orange').onclick=clickHandler('red')
     </script>
 </body>
 </html>
