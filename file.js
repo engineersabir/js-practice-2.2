@@ -1020,27 +1020,37 @@
 // }
 // const iphone= new Teacher("iphone","i@phone.com")
 // console.log(iphone.createId());
-const descriptor=Object.getOwnPropertyDescriptor(Math,"PI")
+// const descriptor=Object.getOwnPropertyDescriptor(Math,"PI")
 // console.log(descriptor)
-const chai={
-  name:'ginger',
-  price:'234',
-  isAvailable:true,
 
-  orderChai:function (){
-    console.log('chai nahi bani bhai')
-  },
-}
-console.log(Object.getOwnPropertyDescriptor(chai,"name"));
+// const chai={
+//   name:'ginger',
+//   price:'234',
+//   isAvailable:true,
 
-Object.defineProperty(chai,'price',{
-  // writable:false,
-  enumerable:true
-})
+//   orderChai:function (){
+//     console.log('chai nahi bani bhai')
+//   },
+// }
+// console.log(Object.getOwnPropertyDescriptor(chai,"name"));
 
-for (let [key,value] of Object.entries(chai)) {
-  if(typeof value !=='function'){
-    console.log(`${key}:${value}`)
-  }
+// Object.defineProperty(chai,'price',{
+//   // writable:false,
+//   enumerable:true
+// })
+
+// for (let [key,value] of Object.entries(chai)) {
+//   if(typeof value !=='function'){
+//     console.log(`${key}:${value}`)
+//   }
   
-}
+// }
+ class User {
+  constructor (email,password){
+    this.email=email;
+    this.password=password
+
+  }
+ }
+ const hitesh=new User('hitesh@h.ai','321')
+ console.log(hitesh.email)
