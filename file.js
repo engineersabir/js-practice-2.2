@@ -1054,41 +1054,55 @@
 //   }
 //  }
 //  const hitesh=new User('hitesh@h.ai','321')
-//  console.log(hitesh.email)
-function user (email,password){
-  this._email=email;
-  this._password=password
+// //  console.log(hitesh.email)
 
-  Object.defineProperty(this,'email',{
-    get:function(){
-      return this._email.toUpperCase()
-    },
-    set:function(value){
-      this.email=value
-    }
-  })
-  Object.defineProperty(this,'password',{
-    get:function(){
-      return this._password.toUpperCase()
-    },
-    set:function(value){
-      this.password=value
-    }
-  })
-}
-const chai=new user('chai@ch.com','abcdefghijklmnopqrstuvwxyz')
-// console.log(chai.email)
-// console.log(chai.password)
+// function user (email,password){
+//   this._email=email;
+//   this._password=password
 
-const User1={
-  _email:'abc@cmail.com',
-  _password:'xyz',
-  get email(){
-    return this._email.toUpperCase()
-  },
-  set email(value){
-this._email=value
-  }
-}
-const tea=Object.create(User1)
-console.log(tea.email)
+//   Object.defineProperty(this,'email',{
+//     get:function(){
+//       return this._email.toUpperCase()
+//     },
+//     set:function(value){
+//       this.email=value
+//     }
+//   })
+//   Object.defineProperty(this,'password',{
+//     get:function(){
+//       return this._password.toUpperCase()
+//     },
+//     set:function(value){
+//       this.password=value
+//     }
+//   })
+// }
+// const chai=new user('chai@ch.com','abcdefghijklmnopqrstuvwxyz')
+// // console.log(chai.email)
+// // console.log(chai.password)
+
+// const User1={
+//   _email:'abc@cmail.com',
+//   _password:'xyz',
+//   get email(){
+//     return this._email.toUpperCase()
+//   },
+//   set email(value){
+// this._email=value
+//   }
+// }
+// const tea=Object.create(User1)
+// console.log(tea.email)
+
+// const myArr=[]
+// %DebugPrint(myArr)
+
+const arrTwo=[1,2,3,4,5,6,7,8]
+arrTwo.push(9.0)
+// Packed_double_Elements
+arrTwo('10')
+arrTwo[12]=23
+// Holey_Elements
+console.log(arrTwo);
+console.log(arrTwo.length);
+console.log(arrTwo[12])
