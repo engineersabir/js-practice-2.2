@@ -1098,20 +1098,21 @@
 // %DebugPrint(myArr)
 
 
-const arrTwo=[1,2,3,4,5,6,7,8]
-arrTwo.push(9.0)
-// Packed_double_Elements
-arrTwo('10')
-arrTwo[12]=23
-// Holey_Elements
-console.log(arrTwo);
-console.log(arrTwo.length);
-console.log(arrTwo[12])
+
+// const arrTwo=[1,2,3,4,5,6,7,8]
+// arrTwo.push(9.0)
+// // Packed_double_Elements
+// arrTwo('10')
+// arrTwo[12]=23
+// // Holey_Elements
+// console.log(arrTwo);
+// console.log(arrTwo.length);
+// console.log(arrTwo[12])
 
 
 
-const arrFive=[]
-arrFive.push('1')
-arrFive.push('2')
-arrFive.push('3')
-console.log(arrFive)
+// const arrFive=[]
+// arrFive.push('1')
+// arrFive.push('2')
+// arrFive.push('3')
+// console.log(arrFive)
