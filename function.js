@@ -50,3 +50,12 @@
 //  console.log(evenArr);
 //console.clear();
 // alert("hello");
+// let headingsNum=document.getElementsById("heading-2");
+// console.log(headingsNum);
+// console.dir (headingsNum);
+// let parahs=document.getElementsByTagName("p");
+// console.dir(parahs);
+// let elementsInDo=document.querySelector("p");
+// console.dir(elementsInDo);
+let fruitSe=document.querySelector("div");
+console.dir(fruitSe);
