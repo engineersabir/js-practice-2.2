@@ -6,19 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
-<input type="text" placeholder="username" id="username" style="background-color: brown; font-size: 40px;">
-<script >
-    let inputBox=document.getElementById("username");
-    // console.log(inputBox.getAttribute("placeholder"))
-// inputBox.setAttribute("class","user");
 
-// console.log(inputBox.hasAttribute("id"));
-// inputBox.removeAttribute("placeholder");
-// console.log(inputBox);
-inputBox.style.cssText+="width:200px; height:400px";
-console.log(window.getComputedStyle(inputBox).backgroundColor);
-// console.log(inputBox)
-</script>
+    <div class="container">
+        <button type="button"  id="btn" >Click Here</button>
+    </div>
+    <script>
+        let btn=document.getElementById("btn");
+        function displayMsg(){
+console.log("button is clicked now.")
+        }
+        btn.addEventListener('click', displayMsg);
+        btn.removeEventListener('click',displayMsg);
+    </script>
 </body>
 </html>
