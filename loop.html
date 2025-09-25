@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .content{
-            color: red;
-        }
-        .newClass{
-            background-color: black;
-        }
-    </style>
 </head>
 <body>
-    <p class="content"> I am a paragraph</p>
-       <script src="function.js"></script> 
+    
+<input type="text" placeholder="username" id="username" style="background-color: brown; font-size: 40px;">
+<script >
+    let inputBox=document.getElementById("username");
+    // console.log(inputBox.getAttribute("placeholder"))
+// inputBox.setAttribute("class","user");
+
+// console.log(inputBox.hasAttribute("id"));
+// inputBox.removeAttribute("placeholder");
+// console.log(inputBox);
+inputBox.style.cssText+="width:200px; height:400px";
+console.log(window.getComputedStyle(inputBox).backgroundColor);
+// console.log(inputBox)
+</script>
 </body>
 </html>
