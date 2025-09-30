@@ -49,4 +49,18 @@ const months=["january", "february","March", "April"];
 
 
 // FOR EACH METHOD
-months.forEach
+const numbers=[10,20,30,40,50]
+
+console.log(months);
+
+ const result=numbers.map((value)=>{
+    return value*20;
+ })
+
+// numbers.forEach((v,i)=>{
+//     sum=sum+v;
+// });
+
+console.log(result);
+
+
