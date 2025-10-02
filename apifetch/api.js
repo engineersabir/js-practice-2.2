@@ -78,3 +78,10 @@
 // }
 
 
+async function fetchData(){
+    const userRes=await fetch('/api/user');
+    const postRes=await fetch('/api/posts');
+    const user=await userRes.json();
+    const posts=await postRes.json();
+    console.log(user,posts);
+}
